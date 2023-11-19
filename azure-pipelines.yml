@@ -26,7 +26,7 @@ steps:
     TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'Artifact_SHA'
+    pathtoPublish: '/home/AnanthAS/myagent/_work/1/a'
+    artifactName: 'Artifact_SHA'
     publishLocation: 'Container'
     
