@@ -9,7 +9,6 @@ trigger:
 pool: SHA
 
 steps:
--
 - task: Maven@4
   inputs:
     mavenPomFile: 'java-from-maven/pom.xml'
